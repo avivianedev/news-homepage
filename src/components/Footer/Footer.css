@@ -1,0 +1,28 @@
+.attribution {
+  background-color: var(--color-text-primary);
+  width: 100%;
+  text-align: center;
+  padding: 2em;
+  font-size: 18px;
+  margin-top: 5rem;
+}
+.attribution p {
+  color: var(--color-text-secondary);
+}
+.attribution p a {
+  color: var(--color-text-secondary);
+  text-decoration: none;
+}
+.attribution p a:hover {
+  color: var(--color-text-tertiary);
+}
+.attribution span {
+  color: var(--color-text-secondary);
+}
+.attribution span a {
+  color: var(--color-text-secondary);
+  text-decoration: none;
+}
+.attribution span a:hover {
+  color: var(--color-text-tertiary);
+}/*# sourceMappingURL=Footer.css.map */
