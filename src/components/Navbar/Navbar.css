@@ -1,0 +1,98 @@
+.nav-container {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1em;
+}
+@media screen and (max-width: 740px) {
+  .nav-container {
+    padding: 0;
+  }
+}
+.nav-container .navbar-menu {
+  display: flex;
+  gap: 25px;
+}
+@media screen and (max-width: 740px) {
+  .nav-container .navbar-menu {
+    width: 80%;
+    padding: 1rem;
+  }
+}
+.nav-container .navbar-menu .nav-list {
+  display: flex;
+  gap: 15px;
+}
+@media screen and (max-width: 740px) {
+  .nav-container .navbar-menu .nav-list {
+    display: none;
+  }
+}
+.nav-container .navbar-menu .nav-list a {
+  color: var(--color-text-secondary);
+  font-size: 20px;
+}
+.nav-container .navbar-menu .nav-list a:hover {
+  color: rgb(176, 50, 50);
+  border-bottom: 1px solid rgb(176, 50, 50);
+}
+.nav-container .navbar-menu .menu-mobile {
+  display: none;
+}
+.nav-container .navbar-menu .menu-mobile .btn-menu {
+  cursor: pointer;
+}
+.nav-container .navbar-menu .menu-mobile .btn-menu button {
+  border: transparent;
+  background: transparent;
+  z-index: 10;
+}
+@media screen and (max-width: 740px) {
+  .nav-container .navbar-menu .menu-mobile {
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+    width: 100%;
+    position: relative;
+  }
+  .nav-container .navbar-menu .menu-mobile .btn-menu {
+    display: flex;
+    justify-content: flex-end;
+    cursor: pointer;
+  }
+  .nav-container .navbar-menu .menu-mobile .btn-menu img {
+    width: 30px;
+    height: 30px;
+  }
+  .nav-container .navbar-menu .menu-mobile .menu-mobile-list {
+    padding: 2em;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    justify-content: center;
+    position: absolute;
+    width: 100vw;
+    min-height: 100vh;
+    top: -17px;
+    left: 15px;
+    animation: Slider 1s;
+    background-color: rebeccapurple;
+  }
+  @keyframes Slider {
+    to {
+      transform: translateX(0px);
+    }
+    from {
+      transform: translateX(80px);
+    }
+  }
+  .nav-container .navbar-menu .menu-mobile .menu-mobile-list a {
+    font-size: 22px;
+  }
+  .nav-container .navbar-menu .menu-mobile .menu-mobile-list a:hover {
+    color: rgb(176, 50, 50);
+    -webkit-text-decoration: underline rgb(176, 50, 50);
+            text-decoration: underline rgb(176, 50, 50);
+  }
+}/*# sourceMappingURL=Navbar.css.map */

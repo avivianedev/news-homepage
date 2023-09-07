@@ -1,0 +1,29 @@
+:root {
+  font-family: 'Inter', sans-serif;
+
+  --color-text-primary: #00001a;
+  --color-text-secondary: #7f7c84;
+  --color-text-tertiary: #e8ab56;
+  --color-text-nav: #a7a4ac;
+  --bg-bnt-color: #ec5e50;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+
+}
+
+a {
+  text-decoration: inherit;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.home-container {
+  max-width: 1500px;
+  margin: 0 auto;
+}
