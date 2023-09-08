@@ -23,7 +23,7 @@ a {
   box-sizing: border-box;
 }
 
-.home-container {
-  max-width: 1500px;
+.container {
+  max-width: 1320px;
   margin: 0 auto;
 }

@@ -1,7 +1,8 @@
 .container-information {
     width: 100%;
     display: flex;
-    gap: 2rem;
+    gap: 1em;
+
 
     @media screen and (max-width: 740px) {
         flex-direction: column;
@@ -15,18 +16,15 @@
                 display: none;
             }
 
-
-
             .information-text {
                 flex-direction: column;
                 width: 100%;
 
                 .information-title {
-                    font-size: 2em;
                     min-width: 100%;
 
                     h1 {
-                        font-size: 2em;
+                        font-size: 3em;
                         font-weight: 900;
                     }
                 }
@@ -45,8 +43,9 @@
     .main-information {
         display: flex;
         flex-direction: column;
-        justify-content: space-evenly;
-        width: 70%;
+        justify-content: space-between;
+        gap: 1em;
+        width: 60%;
 
         .image-mobile-responsive {
             display: none;
@@ -58,27 +57,27 @@
 
                 img {
                     width: 100%;
+
                 }
-
-
             }
         }
 
         .information-text {
             display: flex;
-            padding: 2em 0;
+            padding: 0.5em 0;
 
             .information-title {
                 max-width: 50%;
-                height: 100%;
 
                 h1 {
-                    font-size: 4rem;
+                    font-size: 3rem;
+                    font-weight: bold;
                 }
 
                 @media screen and (max-width: 740px) {
                     h1 {
-                        font-size: 1.5em;
+                        font-size: 2em;
+                        font-weight: 900;
                     }
                 }
             }
@@ -88,11 +87,12 @@
                 display: flex;
                 flex-direction: column;
                 justify-content: space-around;
-                padding: 0 2em;
-                gap: 2em;
+                padding: 0 1em;
+                gap: 1em;
 
                 p {
-                    font-size: 22px;
+                    font-size: 18px;
+                    letter-spacing: 1px;
                     color: var(--color-text-secondary);
                 }
 
@@ -108,13 +108,12 @@
 
 
                 button {
-                    padding: 1.5em;
+                    padding: 1em;
                     border: transparent;
                     background-color: var(--bg-bnt-color);
                     color: white !important;
                     cursor: pointer;
-                    width: 60%;
-
+                    width: 50%;
 
                     &:hover {
                         background-color: var(--color-text-primary)
@@ -138,7 +137,7 @@
         .new-title {
             h1 {
                 color: var(--color-text-tertiary);
-                font-size: 3em;
+                font-size: 2em;
             }
         }
 
@@ -157,7 +156,7 @@
 
             a {
                 color: white;
-                font-size: 20px;
+                font-size: 18px;
 
                 &:hover {
                     color: var(--color-text-tertiary)
@@ -165,7 +164,7 @@
             }
 
             p {
-                font-size: 22px;
+                font-size: 20px;
                 color: var(--color-text-nav);
             }
         }

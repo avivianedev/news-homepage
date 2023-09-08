@@ -1,3 +1,4 @@
+import "./App.scss"
 import Card from "./components/Card"
 import Footer from "./components/Footer"
 import Navbar from "./components/Navbar"
@@ -8,10 +9,10 @@ function App() {
 
   return (
     <>
-      <header className="home-container" >
+      <header className="container" >
         <Navbar />
       </header>
-      <main className="home-container">
+      <main className="container">
         <News />
         <Card />
       </main>

@@ -5,9 +5,9 @@ export default function News() {
     return (
         <div className="container-information ">
             <div className="main-information">
-                <img className="image-desktop-responsive" src="/src/assets/images/image-web-3-desktop.jpg" alt="image main information" />
+                <img className="image-desktop-responsive" src="/assets/images/image-web-3-desktop.jpg" alt="image main information" />
                 <div className="image-mobile-responsive"  >
-                    <img src="/src/assets/images/image-web-3-mobile.jpg" alt="image main information" />
+                    <img src="/assets/images/image-web-3-mobile.jpg" alt="image main information" />
                 </div>
                 <div className="information-text">
                     <div className="information-title">

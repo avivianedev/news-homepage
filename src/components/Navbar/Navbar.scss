@@ -3,10 +3,22 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 1em;
+    padding: 1em 0;
+
+    .navbar-log {
+        img {
+            width: 50px;
+        }
+    }
 
     @media screen and (max-width: 740px) {
-        padding: 0;
+        padding: 1em;
+
+        .navbar-log {
+            img {
+                width: 40px;
+            }
+        }
 
     }
 

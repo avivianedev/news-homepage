@@ -14,7 +14,7 @@ export default function Navbar() {
 
         <div className='nav-container'>
             <div className="navbar-log">
-                <img src="/src/assets/logo.svg" alt="logo homepage" />
+                <img src="/assets/logo.svg" alt="logo homepage" />
             </div>
             <div className="navbar-menu">
                 <div className="nav-list">
@@ -27,7 +27,7 @@ export default function Navbar() {
                 <div className="menu-mobile">
                     <div className="btn-menu">
                         {statebtn ? <>
-                            <button onClick={stateOpenBtn} ><img src="/src/assets/images/icon-menu-close.svg" alt="icon-open-menu" /></button>
+                            <button onClick={stateOpenBtn} ><img src="/assets/images/icon-menu-close.svg" alt="icon-open-menu" /></button>
                             <div className="menu-mobile-list">
                                 <a href="">Home</a>
                                 <a href="">New</a>
@@ -37,7 +37,7 @@ export default function Navbar() {
                             </div>
                         </>
                             :
-                            <button onClick={() => SetstateBtn(!statebtn)} ><img src="/src/assets/images/icon-menu.svg" alt="icon-open-menu" /></button>
+                            <button onClick={() => SetstateBtn(!statebtn)} ><img src="/assets/images/icon-menu.svg" alt="icon-open-menu" /></button>
                         }
                     </div>
                 </div>

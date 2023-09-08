@@ -3,11 +3,17 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 1em;
+  padding: 1em 0;
+}
+.nav-container .navbar-log img {
+  width: 50px;
 }
 @media screen and (max-width: 740px) {
   .nav-container {
-    padding: 0;
+    padding: 1em;
+  }
+  .nav-container .navbar-log img {
+    width: 40px;
   }
 }
 .nav-container .navbar-menu {
