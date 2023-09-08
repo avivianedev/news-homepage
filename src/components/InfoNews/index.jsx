@@ -1,34 +1,17 @@
-import "./News.scss"
+import CardNews from "../CardNews"
+import "./InfoNews.scss"
 
-export default function News() {
+export default function InfoNews() {
 
     return (
-        <div className="container-information ">
-            <div className="main-information">
+        <div className="grid-container">
+            <div className="imgPrincipal">
                 <img className="image-desktop-responsive" src="/assets/images/image-web-3-desktop.jpg" alt="image main information" />
                 <div className="image-mobile-responsive"  >
                     <img src="/assets/images/image-web-3-mobile.jpg" alt="image main information" />
                 </div>
-                <div className="information-text">
-                    <div className="information-title">
-                        <h1>The Bright Future of Web 3.0?</h1>
-                    </div>
-
-                    <div className="information-description">
-                        <div>
-                            <p>We dive into the next evolution of the web that claims to put the power of the platforms back into the hands of the people.</p>
-                            <p>But is it really fulfilling its promise?</p>
-                        </div>
-                        <div>
-                            <button>READ MORE</button>
-                        </div>
-                    </div>
-
-
-                </div>
-
             </div>
-            <div className="side-frame">
+            <div className="newsframe">
                 <div className="new-title"><h1>New</h1></div>
                 <div className="new-content">
                     <a href=""><h3>  Hydrogen VS Electric Cars</h3></a>
@@ -42,6 +25,22 @@ export default function News() {
                     <a href=""><h3>Is VC Funding Drying Up?</h3></a>
                     <p>  Private funding by VC firms is down 50% YOY. We take a look at what that means.</p>
                 </div><a href=""></a>
+            </div>
+            <div className="newsTitle">
+                <h1>The Bright Future of Web 3.0?</h1>
+            </div>
+
+            <div className="news-details">
+                <div>
+                    <p>We dive into the next evolution of the web that claims to put the power of the platforms back into the hands of the people.</p>
+                    <p>But is it really fulfilling its promise?</p>
+                </div>
+                <div>
+                    <button>READ MORE</button>
+                </div>
+            </div>
+            <div className="card">
+                <CardNews />
             </div>
         </div>
     )

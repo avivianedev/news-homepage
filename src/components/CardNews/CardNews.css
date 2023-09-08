@@ -1,0 +1,13 @@
+.card-container {
+  display: flex;
+}
+.card-container .card-wrapper {
+  display: flex;
+}
+.card-container .card-wrapper .card-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+/*# sourceMappingURL=CardNews.css.map */

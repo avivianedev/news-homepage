@@ -1,8 +1,7 @@
-import "./App.scss"
-import Card from "./components/Card"
+import "./App.scss";
 import Footer from "./components/Footer"
+import InfoNews from "./components/InfoNews"
 import Navbar from "./components/Navbar"
-import News from "./components/News"
 
 function App() {
 
@@ -13,10 +12,12 @@ function App() {
         <Navbar />
       </header>
       <main className="container">
-        <News />
-        <Card />
+        <InfoNews />
       </main>
-      <Footer />
+      <div>
+        <Footer />
+      </div>
+
 
     </>
   )
